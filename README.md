@@ -16,3 +16,10 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 # htk-flutter-test-drive
 Hello, Flutter!
+Check list:
+UI 
+Reactive X
+Networking
+Database
+Animation
+
