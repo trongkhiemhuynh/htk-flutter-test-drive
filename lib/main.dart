@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_drive/parallax_recipe.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page Aug 1 Thursday 2024'),
+      home: //const MyHomePage(title: 'Flutter Demo Home Page Aug 1 Thursday 2024'),
+          const Scaffold(
+            body: Center(
+              child: ParallaxRecipe(),
+            ),
+          )
     );
   }
 }
